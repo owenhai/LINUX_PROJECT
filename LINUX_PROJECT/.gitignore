@@ -5,3 +5,9 @@ __pycache__/
 *.log
 venv/
 .venv/
+
+# Block secrets
+.ssh/
+id_ed25519*
+id_rsa*
+*.pem
