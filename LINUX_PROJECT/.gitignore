@@ -11,3 +11,8 @@ venv/
 id_ed25519*
 id_rsa*
 *.pem
+
+.ssh/
+id_ed25519*
+id_rsa*
+*.pem
