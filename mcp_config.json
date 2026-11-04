@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "linux_monitor": {
+      "command": "conda",
+      "args": [
+        "run",
+        "-n",
+        "mcp_env",
+        "python",
+        "mcp_server.py"
+      ]
+    }
+  }
+}
