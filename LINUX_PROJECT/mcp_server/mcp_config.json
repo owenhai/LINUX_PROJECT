@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "linux_monitor": {
+      "command": "python",
+      "args": [
+        "LINUX_PROJECT/mcp_server/mcp_server.py"
+      ],
+      "conda_fallback": {
+        "command": "conda",
+        "args": [
+          "run",
+          "-n",
+          "mcp_env",
+          "python",
+          "LINUX_PROJECT/mcp_server/mcp_server.py"
+        ]
+      }
+    }
+  }
+}
+
